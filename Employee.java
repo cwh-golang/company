@@ -3,14 +3,22 @@ package com.company;
 //import java.io.*;
 
 public class Employee {
-    String name;
-    int age;
+    private String name;
+    public int age;
     String designation;
     double salary;
 
     // Employee 类的构造器
     public Employee(String name) {
         this.name = name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     // 设置age的值

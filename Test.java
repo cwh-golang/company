@@ -10,5 +10,11 @@ public class Test{
     public static void main(String[] args){
         Test test = new Test();
         test.pupAge();
+        Employee myemployee = new Employee("lily");
+        myemployee.age = 10;
+        System.out.println(myemployee.age);
+        System.out.println(myemployee.getName());
+        myemployee.setName("liming");
+        System.out.println(myemployee.getName());
     }
 }
