@@ -7,6 +7,7 @@ public class Employee {
     public int age;
     String designation;
     double salary;
+    static int weight;
 
     // Employee 类的构造器
     public Employee(String name) {

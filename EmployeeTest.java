@@ -26,5 +26,8 @@ public class EmployeeTest {
         myCat.setPuppyAge(15);
         myCat.getPuppyAge();
         System.out.println(myCat);
+        while (true){
+            System.out.println(myCat);
+        }
     }
 }
